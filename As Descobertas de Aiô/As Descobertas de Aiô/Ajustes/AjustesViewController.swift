@@ -2,7 +2,7 @@
 //  AjustesViewController.swift
 //  As Descobertas de Aiô
 //
-//  Created by Francisca Rosa on 29/06/21.
+//  Created by Paulo Bassani on 30/06/21.
 //
 
 import UIKit

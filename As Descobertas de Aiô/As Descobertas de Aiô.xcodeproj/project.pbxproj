@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */; };
 		1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */; };
 		1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D160268B51F300B4A780 /* ExplorarViewController.swift */; };
 		1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */; };
-		1629D167268B536400B4A780 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D166268B536400B4A780 /* AjustesViewController.swift */; };
+		1629D167268B536400B4A780 /* ContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D166268B536400B4A780 /* ContaViewController.swift */; };
 		1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16A268B54BD00B4A780 /* ConquistasStoryboard.storyboard */; };
 		1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D16C268B551500B4A780 /* ConquistasViewController.swift */; };
 		1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */; };
@@ -22,14 +21,14 @@
 		272D9431268B4669001201D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D942F268B4669001201D4 /* Main.storyboard */; };
 		272D9433268B466A001201D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272D9432268B466A001201D4 /* Assets.xcassets */; };
 		272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D9434268B466A001201D4 /* LaunchScreen.storyboard */; };
+		27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3E12E268CC32E0051B600 /* AjustesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testeGitStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
 		1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AjustesStoryboard.storyboard; sourceTree = "<group>"; };
-		1629D166268B536400B4A780 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		1629D166268B536400B4A780 /* ContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaViewController.swift; sourceTree = "<group>"; };
 		1629D16A268B54BD00B4A780 /* ConquistasStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConquistasStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D16C268B551500B4A780 /* ConquistasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasViewController.swift; sourceTree = "<group>"; };
 		1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JornadaEcologiaStoryboard.storyboard; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		272D9432268B466A001201D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272D9435268B466A001201D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		272D9437268B466A001201D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D3E12E268CC32E0051B600 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +55,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1621BEB7268CB01A00DA934B /* pastateste */ = {
-			isa = PBXGroup;
-			children = (
-				1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */,
-			);
-			path = pastateste;
-			sourceTree = "<group>";
-		};
 		1629D159268B503100B4A780 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */,
-				1629D166268B536400B4A780 /* AjustesViewController.swift */,
+				1629D166268B536400B4A780 /* ContaViewController.swift */,
+				27D3E12E268CC32E0051B600 /* AjustesViewController.swift */,
 			);
 			path = Ajustes;
 			sourceTree = "<group>";
@@ -144,7 +137,6 @@
 		272D9428268B4669001201D4 /* As Descobertas de Aiô */ = {
 			isa = PBXGroup;
 			children = (
-				1621BEB7268CB01A00DA934B /* pastateste */,
 				1629D169268B540300B4A780 /* Conquistas */,
 				1629D168268B53CB00B4A780 /* JornadaEcologia */,
 				1629D163268B523F00B4A780 /* Ajustes */,
@@ -221,7 +213,6 @@
 				1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */,
 				1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */,
 				272D9431268B4669001201D4 /* Main.storyboard in Resources */,
-				1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */,
 				1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,9 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				272D942E268B4669001201D4 /* ViewController.swift in Sources */,
-				1629D167268B536400B4A780 /* AjustesViewController.swift in Sources */,
+				1629D167268B536400B4A780 /* ContaViewController.swift in Sources */,
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
+				27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
 				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
