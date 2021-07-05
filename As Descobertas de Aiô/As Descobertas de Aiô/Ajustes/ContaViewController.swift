@@ -27,14 +27,12 @@ class ContaViewController: UIViewController {
         
         dividendLabel.text = String(dividend)
         divisorLabel.text = String(divisor)
-        answerField.placeholder = String(dividend/divisor)
+//        answerField.placeholder = String(dividend/divisor)
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         if answerField.text == String(dividend/divisor) {
-            if let ajustes = storyboard?.instantiateViewController(identifier: "Ajustes") {
-                present(ajustes, animated: true)
-            }
+            performSegue(withIdentifier: "ContaParaAjustes", sender: sender)
         }
     }
 

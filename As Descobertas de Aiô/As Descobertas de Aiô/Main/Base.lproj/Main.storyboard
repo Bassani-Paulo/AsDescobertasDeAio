@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bora "/>
                                 <connections>
-                                    <segue destination="gPw-uM-rIh" kind="show" id="zPj-0F-0Dj"/>
+                                    <segue destination="gPw-uM-rIh" kind="presentation" modalTransitionStyle="crossDissolve" id="zPj-0F-0Dj"/>
                                 </connections>
                             </button>
                         </subviews>
