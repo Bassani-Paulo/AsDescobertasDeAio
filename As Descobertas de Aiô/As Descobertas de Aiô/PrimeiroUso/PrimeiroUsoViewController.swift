@@ -9,28 +9,46 @@ import UIKit
 
 class PrimeiroUsoViewController: UIViewController {
 	
+	@IBOutlet weak var apresentacaoLabel: UILabel!
+	let falas = Falas()
+	var paginaInicio = 0
+	
 	@IBOutlet weak var balaoView: UIView!
 	
-    override func viewDidLoad() {
+	@IBAction func avancar(_ sender: Any) {
+		paginaInicio = paginaInicio + 1
+		
+		switch paginaInicio {
+		case 5:
+			performSegue(withIdentifier: "paraMain", sender: nil)
+		default:
+			apresentacaoLabel.text = falas.falasPrimeiroUso[paginaInicio]
+		}
+//				if paginaInicio > 4 {
+////					performSegue(withIdentifier: "paraMain", sender: nil)
+//					apresentacaoLabel.text = falas.falasPrimeiroUso[paginaInicio]
+//				}
+				
+		
+	}
+	//	@IBAction func avancar(_ sender: Any) {
+//		paginaInicio = paginaInicio + 1
+//
+//		if paginaInicio >= falas.falasPrimeiroUso.count {
+//			performSegue(withIdentifier: "paraMain", sender: nil)
+//		}
+//		apresentacaoLabel.text = falas.falasPrimeiroUso[paginaInicio]
+//	}
+	override func viewDidLoad() {
         super.viewDidLoad()
+			
+			balaoView.layer.cornerRadius = 13
 		
-		balaoView.layer.cornerRadius = 13
-		let falas = Falas()
 		
-		print (falas.falasPrimeiroUso[1]!)
-
+	}
+	
+	
 		
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+		
 
 }

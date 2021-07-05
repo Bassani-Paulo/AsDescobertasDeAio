@@ -16,17 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZI-LK-Q7X">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZI-LK-Q7X">
                                 <rect key="frame" x="390" y="192" width="36" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bora "/>
                                 <connections>
-                                    <segue destination="0iZ-Ys-d2K" kind="show" id="xpD-hR-uAP"/>
+                                    <segue destination="0iZ-Ys-d2K" kind="show" id="ej9-x6-3cI"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AZI-LK-Q7X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1td-W0-3Hr"/>
+                            <constraint firstItem="AZI-LK-Q7X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="346" id="DMQ-g7-tF5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eaV-ga-iAG"/>
                 </viewController>
@@ -34,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="423.21428571428572" y="8.6956521739130448"/>
         </scene>
-        <!--HistoriaPrimeiroUso-->
+        <!--Onboarding-->
         <scene sceneID="i9Y-sR-rkr">
             <objects>
-                <viewControllerPlaceholder storyboardName="PrimeiroUsoStoryboard" referencedIdentifier="HistoriaPrimeiroUso" id="0iZ-Ys-d2K" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="PrimeiroUsoStoryboard" referencedIdentifier="Onboarding" id="0iZ-Ys-d2K" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="U28-XC-vZz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tFX-Wf-W9x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
