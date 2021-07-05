@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bora "/>
                                 <connections>
-                                    <segue destination="gPw-uM-rIh" kind="show" id="zPj-0F-0Dj"/>
+                                    <segue destination="0iZ-Ys-d2K" kind="show" id="xpD-hR-uAP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -33,6 +33,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="423.21428571428572" y="8.6956521739130448"/>
+        </scene>
+        <!--HistoriaPrimeiroUso-->
+        <scene sceneID="i9Y-sR-rkr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PrimeiroUsoStoryboard" referencedIdentifier="HistoriaPrimeiroUso" id="0iZ-Ys-d2K" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="U28-XC-vZz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tFX-Wf-W9x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="-208"/>
         </scene>
         <!--Ajustes-->
         <scene sceneID="kyA-lX-O7E">
