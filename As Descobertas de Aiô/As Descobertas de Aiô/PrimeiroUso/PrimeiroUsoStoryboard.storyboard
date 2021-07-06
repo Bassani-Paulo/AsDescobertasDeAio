@@ -82,6 +82,8 @@
                     <connections>
                         <outlet property="apresentacaoLabel" destination="xXt-Ae-M8r" id="MRi-RH-bCT"/>
                         <outlet property="balaoView" destination="Zqb-cr-sKu" id="F9x-ps-HaP"/>
+                        <outlet property="falaAio" destination="ocW-jw-Nnd" id="wcb-1h-UMA"/>
+                        <outlet property="falaMaia" destination="0cq-SQ-B6A" id="bvh-vu-yHK"/>
                         <segue destination="EcP-Ji-Xab" kind="show" identifier="paraMain" id="x1w-ah-BrG"/>
                     </connections>
                 </viewController>

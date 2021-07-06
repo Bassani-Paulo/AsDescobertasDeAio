@@ -9,6 +9,8 @@ import UIKit
 
 class PrimeiroUsoViewController: UIViewController {
 	
+	@IBOutlet weak var falaAio: UIImageView!
+	@IBOutlet weak var falaMaia: UIImageView!
 	@IBOutlet weak var apresentacaoLabel: UILabel!
 	let falas = Falas()
 	var paginaInicio = 0
@@ -16,7 +18,12 @@ class PrimeiroUsoViewController: UIViewController {
 	@IBOutlet weak var balaoView: UIView!
 	
 	@IBAction func avancar(_ sender: Any) {
+		if paginaInicio <= falas.falasPrimeiroUso.count && paginaInicio >= 0{
 		paginaInicio = paginaInicio + 1
+		} else
+		{
+			print(falas.falasPrimeiroUso[paginaInicio], "erro")
+		}
 		
 		switch paginaInicio {
 		case 5:
@@ -24,21 +31,10 @@ class PrimeiroUsoViewController: UIViewController {
 		default:
 			apresentacaoLabel.text = falas.falasPrimeiroUso[paginaInicio]
 		}
-//				if paginaInicio > 4 {
-////					performSegue(withIdentifier: "paraMain", sender: nil)
-//					apresentacaoLabel.text = falas.falasPrimeiroUso[paginaInicio]
-//				}
-				
+
 		
 	}
-	//	@IBAction func avancar(_ sender: Any) {
-//		paginaInicio = paginaInicio + 1
-//
-//		if paginaInicio >= falas.falasPrimeiroUso.count {
-//			performSegue(withIdentifier: "paraMain", sender: nil)
-//		}
-//		apresentacaoLabel.text = falas.falasPrimeiroUso[paginaInicio]
-//	}
+	
 	override func viewDidLoad() {
         super.viewDidLoad()
 			
