@@ -15,6 +15,8 @@
 		1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D16C268B551500B4A780 /* ConquistasViewController.swift */; };
 		1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */; };
 		1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */; };
+		2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */; };
+		2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727FD8D2693511A004395B1 /* AudioManager.swift */; };
 		272D942A268B4669001201D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D9429268B4669001201D4 /* AppDelegate.swift */; };
 		272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942B268B4669001201D4 /* SceneDelegate.swift */; };
 		272D942E268B4669001201D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942D268B4669001201D4 /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 		1629D16C268B551500B4A780 /* ConquistasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasViewController.swift; sourceTree = "<group>"; };
 		1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JornadaEcologiaStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaEcologiaViewController.swift; sourceTree = "<group>"; };
+		2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Curious Kitten - Aaron Kenny.mp3"; sourceTree = "<group>"; };
+		2727FD8D2693511A004395B1 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		272D9426268B4669001201D4 /* As Descobertas de Aiô.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "As Descobertas de Aiô.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272D9429268B4669001201D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		272D942B268B4669001201D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				1629D159268B503100B4A780 /* Delegates */,
 				272D9432268B466A001201D4 /* Assets.xcassets */,
 				272D9437268B466A001201D4 /* Info.plist */,
+				2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */,
+				2727FD8D2693511A004395B1 /* AudioManager.swift */,
 			);
 			path = "As Descobertas de Aiô";
 			sourceTree = "<group>";
@@ -214,6 +220,7 @@
 				1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */,
 				272D9431268B4669001201D4 /* Main.storyboard in Resources */,
 				1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */,
+				2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +237,7 @@
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
 				27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
+				2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
 				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
 			);

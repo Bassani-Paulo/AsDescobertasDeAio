@@ -128,6 +128,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemYellowColor"/>
                                 <color key="maximumTrackTintColor" systemColor="systemGray3Color"/>
+                                <connections>
+                                    <action selector="didChangeMusicVolumeSlider:" destination="kJq-JE-aOW" eventType="valueChanged" id="P1Q-Eg-DLy"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DEK-tu-E8n">
                                 <rect key="frame" x="466" y="163" width="302" height="30"/>

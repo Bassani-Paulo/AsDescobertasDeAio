@@ -20,34 +20,39 @@ class AjustesViewController: UIViewController {
     }
     
     @IBAction func didSwitchMainVolume(_ sender: UISwitch) {
-        mainVolumeSlider.isEnabled = !mainVolumeSlider.isEnabled
-        if mainVolumeSlider.alpha<1 {
+        if sender.isOn {
+            mainVolumeSlider.isEnabled = true
             mainVolumeSlider.alpha = 1
+            AudioManager.shared.turnOn()
         } else {
+            mainVolumeSlider.isEnabled = false
             mainVolumeSlider.alpha = 0.5
+            AudioManager.shared.turnOff()
         }
     }
     
     @IBAction func didSwitchMusicVolume(_ sender: UISwitch) {
-        musicVolumeSlider.isEnabled = !musicVolumeSlider.isEnabled
-        if musicVolumeSlider.alpha<1 {
+        if sender.isOn {
+            musicVolumeSlider.isEnabled = true
             musicVolumeSlider.alpha = 1
+            AudioManager.shared.resumeMusic()
         } else {
+            musicVolumeSlider.isEnabled = false
             musicVolumeSlider.alpha = 0.5
+            AudioManager.shared.pauseMusic()
         }
     }
     
     @IBAction func didSwitchVoiceVolume(_ sender: UISwitch) {
-        voiceVolumeSlider.isEnabled = !voiceVolumeSlider.isEnabled
-        if voiceVolumeSlider.alpha<1 {
-            voiceVolumeSlider.alpha = 1
-        } else {
-            voiceVolumeSlider.alpha = 0.5
-        }
+        //TODO
     }
     
     @IBAction func didChangeMainVolumeSlider(_ sender: UISlider) {
-        //audioPlayer.volume = sender.value
+        AudioManager.shared.setMainVolume(value: sender.value)
+    }
+    
+    @IBAction func didChangeMusicVolumeSlider(_ sender: UISlider) {
+        AudioManager.shared.setMusicVolume(value: sender.value)
     }
     /*
     // MARK: - Navigation
