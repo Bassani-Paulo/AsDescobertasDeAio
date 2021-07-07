@@ -26,6 +26,11 @@
 		272D942E268B4669001201D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942D268B4669001201D4 /* ViewController.swift */; };
 		272D9431268B4669001201D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D942F268B4669001201D4 /* Main.storyboard */; };
 		272D9433268B466A001201D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272D9432268B466A001201D4 /* Assets.xcassets */; };
+
+		272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D9434268B466A001201D4 /* LaunchScreen.storyboard */; };
+		833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E32693530E004C5F5D /* JornadaCellView.swift */; };
+		833C21E6269360DE004C5F5D /* Jornadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 833C21E5269360DE004C5F5D /* Jornadas.json */; };
+		833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E72693629F004C5F5D /* JornadasModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +55,9 @@
 		272D9430268B4669001201D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		272D9432268B466A001201D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272D9437268B466A001201D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833C21E32693530E004C5F5D /* JornadaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaCellView.swift; sourceTree = "<group>"; };
+		833C21E5269360DE004C5F5D /* Jornadas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jornadas.json; sourceTree = "<group>"; };
+		833C21E72693629F004C5F5D /* JornadasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadasModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,12 @@
 			children = (
 				272D942F268B4669001201D4 /* Main.storyboard */,
 				272D942D268B4669001201D4 /* ViewController.swift */,
+
 				16F9301526934130000171F6 /* verificacaoPrimeiroUso.swift */,
+
+				833C21E32693530E004C5F5D /* JornadaCellView.swift */,
+				833C21E5269360DE004C5F5D /* Jornadas.json */,
+				833C21E72693629F004C5F5D /* JornadasModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -235,6 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+
+				833C21E6269360DE004C5F5D /* Jornadas.json in Resources */,
 				1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */,
 				272D9433268B466A001201D4 /* Assets.xcassets in Resources */,
 				1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */,
@@ -256,14 +272,18 @@
 			files = (
 				272D942E268B4669001201D4 /* ViewController.swift in Sources */,
 				1629D167268B536400B4A780 /* AjustesViewController.swift in Sources */,
+				833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */,
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,
 				16F9301626934130000171F6 /* verificacaoPrimeiroUso.swift in Sources */,
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
 				1621BEC2268F58A000DA934B /* Falas.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
-				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
+				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */
 				1621BEBF268F580000DA934B /* PrimeiroUsoViewController.swift in Sources */,
+
+				833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

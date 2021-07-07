@@ -1,0 +1,12 @@
+{
+    "jornadas":[{
+        "imagemFundo" : "cardReciclagem",
+        "bloqueado" : false
+    },{
+        "imagemFundo" : "card2",
+        "bloqueado" : true
+    },{
+    "imagemFundo" : "card3",
+    "bloqueado" : true
+    }]
+}
