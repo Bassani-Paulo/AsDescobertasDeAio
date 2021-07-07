@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */; };
+		1621BEBD268F572300DA934B /* PrimeiroUsoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1621BEBC268F572300DA934B /* PrimeiroUsoStoryboard.storyboard */; };
+		1621BEBF268F580000DA934B /* PrimeiroUsoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1621BEBE268F580000DA934B /* PrimeiroUsoViewController.swift */; };
+		1621BEC2268F58A000DA934B /* Falas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1621BEC1268F58A000DA934B /* Falas.swift */; };
 		1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */; };
 		1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D160268B51F300B4A780 /* ExplorarViewController.swift */; };
 		1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */; };
@@ -16,11 +19,14 @@
 		1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D16C268B551500B4A780 /* ConquistasViewController.swift */; };
 		1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */; };
 		1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */; };
+		166A96EC269488C900FD9987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166A96EB269488C900FD9987 /* LaunchScreen.storyboard */; };
+		16F9301626934130000171F6 /* verificacaoPrimeiroUso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9301526934130000171F6 /* verificacaoPrimeiroUso.swift */; };
 		272D942A268B4669001201D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D9429268B4669001201D4 /* AppDelegate.swift */; };
 		272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942B268B4669001201D4 /* SceneDelegate.swift */; };
 		272D942E268B4669001201D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942D268B4669001201D4 /* ViewController.swift */; };
 		272D9431268B4669001201D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D942F268B4669001201D4 /* Main.storyboard */; };
 		272D9433268B466A001201D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272D9432268B466A001201D4 /* Assets.xcassets */; };
+
 		272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D9434268B466A001201D4 /* LaunchScreen.storyboard */; };
 		833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E32693530E004C5F5D /* JornadaCellView.swift */; };
 		833C21E6269360DE004C5F5D /* Jornadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 833C21E5269360DE004C5F5D /* Jornadas.json */; };
@@ -29,6 +35,9 @@
 
 /* Begin PBXFileReference section */
 		1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testeGitStoryboard.storyboard; sourceTree = "<group>"; };
+		1621BEBC268F572300DA934B /* PrimeiroUsoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrimeiroUsoStoryboard.storyboard; sourceTree = "<group>"; };
+		1621BEBE268F580000DA934B /* PrimeiroUsoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroUsoViewController.swift; sourceTree = "<group>"; };
+		1621BEC1268F58A000DA934B /* Falas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falas.swift; sourceTree = "<group>"; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
 		1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AjustesStoryboard.storyboard; sourceTree = "<group>"; };
@@ -37,13 +46,14 @@
 		1629D16C268B551500B4A780 /* ConquistasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasViewController.swift; sourceTree = "<group>"; };
 		1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JornadaEcologiaStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaEcologiaViewController.swift; sourceTree = "<group>"; };
+		166A96EB269488C900FD9987 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16F9301526934130000171F6 /* verificacaoPrimeiroUso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verificacaoPrimeiroUso.swift; sourceTree = "<group>"; };
 		272D9426268B4669001201D4 /* As Descobertas de Aiô.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "As Descobertas de Aiô.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272D9429268B4669001201D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		272D942B268B4669001201D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		272D942D268B4669001201D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		272D9430268B4669001201D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		272D9432268B466A001201D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		272D9435268B466A001201D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		272D9437268B466A001201D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833C21E32693530E004C5F5D /* JornadaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaCellView.swift; sourceTree = "<group>"; };
 		833C21E5269360DE004C5F5D /* Jornadas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jornadas.json; sourceTree = "<group>"; };
@@ -69,6 +79,16 @@
 			path = pastateste;
 			sourceTree = "<group>";
 		};
+		1621BEBB268F560800DA934B /* PrimeiroUso */ = {
+			isa = PBXGroup;
+			children = (
+				1621BEBC268F572300DA934B /* PrimeiroUsoStoryboard.storyboard */,
+				1621BEBE268F580000DA934B /* PrimeiroUsoViewController.swift */,
+				1621BEC1268F58A000DA934B /* Falas.swift */,
+			);
+			path = PrimeiroUso;
+			sourceTree = "<group>";
+		};
 		1629D159268B503100B4A780 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +103,9 @@
 			children = (
 				272D942F268B4669001201D4 /* Main.storyboard */,
 				272D942D268B4669001201D4 /* ViewController.swift */,
+
+				16F9301526934130000171F6 /* verificacaoPrimeiroUso.swift */,
+
 				833C21E32693530E004C5F5D /* JornadaCellView.swift */,
 				833C21E5269360DE004C5F5D /* Jornadas.json */,
 				833C21E72693629F004C5F5D /* JornadasModel.swift */,
@@ -93,7 +116,7 @@
 		1629D15C268B50BB00B4A780 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				272D9434268B466A001201D4 /* LaunchScreen.storyboard */,
+				166A96EB269488C900FD9987 /* LaunchScreen.storyboard */,
 			);
 			path = LaunchScreen;
 			sourceTree = "<group>";
@@ -153,6 +176,7 @@
 		272D9428268B4669001201D4 /* As Descobertas de Aiô */ = {
 			isa = PBXGroup;
 			children = (
+				1621BEBB268F560800DA934B /* PrimeiroUso */,
 				1621BEB7268CB01A00DA934B /* pastateste */,
 				1629D169268B540300B4A780 /* Conquistas */,
 				1629D168268B53CB00B4A780 /* JornadaEcologia */,
@@ -224,14 +248,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */,
+
+
 				833C21E6269360DE004C5F5D /* Jornadas.json in Resources */,
 				1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */,
 				272D9433268B466A001201D4 /* Assets.xcassets in Resources */,
 				1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */,
+				166A96EC269488C900FD9987 /* LaunchScreen.storyboard in Resources */,
 				1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */,
 				272D9431268B4669001201D4 /* Main.storyboard in Resources */,
 				1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */,
+				1621BEBD268F572300DA934B /* PrimeiroUsoStoryboard.storyboard in Resources */,
 				1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,11 +274,16 @@
 				1629D167268B536400B4A780 /* AjustesViewController.swift in Sources */,
 				833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */,
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,
+				16F9301626934130000171F6 /* verificacaoPrimeiroUso.swift in Sources */,
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
+				1621BEC2268F58A000DA934B /* Falas.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
-				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
+				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */
+				1621BEBF268F580000DA934B /* PrimeiroUsoViewController.swift in Sources */,
+
 				833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +296,6 @@
 				272D9430268B4669001201D4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		272D9434268B466A001201D4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				272D9435268B466A001201D4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

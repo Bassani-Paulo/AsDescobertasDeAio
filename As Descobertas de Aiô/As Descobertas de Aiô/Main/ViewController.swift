@@ -24,6 +24,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         adicionarGestureRecognizer()
     }
+
     
     func adicionarGestureRecognizer(){
         conquistas.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(gerenciaToque(_:))))
@@ -76,6 +77,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
     
+
 
 }
 

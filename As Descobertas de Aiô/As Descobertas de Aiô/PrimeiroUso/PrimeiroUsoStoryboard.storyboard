@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Primeiro Uso View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Onboarding" id="Y6W-OH-hqX" customClass="PrimeiroUsoViewController" customModule="As_Descobertas_de_Aio_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="0cq-SQ-B6A">
+                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maiaBaozinho" translatesAutoresizingMaskIntoConstraints="NO" id="HbR-E0-Shw">
+                                <rect key="frame" x="214" y="180" width="36" height="25"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MaiaFeliz" translatesAutoresizingMaskIntoConstraints="NO" id="6QP-os-mSa">
+                                <rect key="frame" x="91" y="149" width="133" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AioFeliz" translatesAutoresizingMaskIntoConstraints="NO" id="we4-cI-Bde">
+                                <rect key="frame" x="474" y="135" width="238" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zqb-cr-sKu">
+                                <rect key="frame" x="253" y="35" width="191" height="180"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Olá! Eu me chamo MAIA. A gente tava explorando a área. Que bom que você chegou.&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-Ae-M8r">
+                                        <rect key="frame" x="10" y="10" width="171" height="160"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="xXt-Ae-M8r" secondAttribute="bottom" priority="900" constant="10" id="7KD-kr-Yl2"/>
+                                    <constraint firstItem="xXt-Ae-M8r" firstAttribute="leading" secondItem="Zqb-cr-sKu" secondAttribute="leading" constant="10" id="GCt-Nw-EIc"/>
+                                    <constraint firstItem="xXt-Ae-M8r" firstAttribute="top" secondItem="Zqb-cr-sKu" secondAttribute="top" constant="10" id="H1c-4U-tjY"/>
+                                    <constraint firstAttribute="width" constant="191" id="TdW-Yt-yC1"/>
+                                    <constraint firstAttribute="trailing" secondItem="xXt-Ae-M8r" secondAttribute="trailing" constant="10" id="awg-19-Xyf"/>
+                                    <constraint firstAttribute="height" constant="180" id="qyR-jW-lKX"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aioBalaozinho" translatesAutoresizingMaskIntoConstraints="NO" id="ocW-jw-Nnd">
+                                <rect key="frame" x="455" y="180" width="36" height="25"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnd-oP-lSu">
+                                <rect key="frame" x="350" y="319" width="46" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.right" catalog="system"/>
+                                <connections>
+                                    <action selector="avancar:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ge9-F4-dYO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HbR-E0-Shw" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="170" id="3yo-FQ-HjL"/>
+                            <constraint firstAttribute="trailing" secondItem="0cq-SQ-B6A" secondAttribute="trailing" id="5dR-4D-lnB"/>
+                            <constraint firstItem="HbR-E0-Shw" firstAttribute="bottom" secondItem="ocW-jw-Nnd" secondAttribute="bottom" id="BIW-Uq-zJ3"/>
+                            <constraint firstItem="HbR-E0-Shw" firstAttribute="top" secondItem="ocW-jw-Nnd" secondAttribute="top" id="GcV-PK-3l5"/>
+                            <constraint firstAttribute="bottom" secondItem="0cq-SQ-B6A" secondAttribute="bottom" id="WlD-bb-2Rc"/>
+                            <constraint firstItem="0cq-SQ-B6A" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="Xif-dc-EOa"/>
+                            <constraint firstItem="Zqb-cr-sKu" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="35" id="e3y-9g-PKn"/>
+                            <constraint firstItem="HbR-E0-Shw" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="180" id="eAB-Ix-8t4"/>
+                            <constraint firstItem="Zqb-cr-sKu" firstAttribute="leading" secondItem="HbR-E0-Shw" secondAttribute="trailing" constant="3" id="fH1-lv-zze"/>
+                            <constraint firstItem="ocW-jw-Nnd" firstAttribute="leading" secondItem="Zqb-cr-sKu" secondAttribute="trailing" constant="11" id="pWu-wH-lZw"/>
+                            <constraint firstItem="0cq-SQ-B6A" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="wcc-n5-sTf"/>
+                            <constraint firstItem="Zqb-cr-sKu" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="253" id="weO-7Y-w9C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="apresentacaoLabel" destination="xXt-Ae-M8r" id="MRi-RH-bCT"/>
+                        <outlet property="balaoView" destination="Zqb-cr-sKu" id="F9x-ps-HaP"/>
+                        <outlet property="falaAio" destination="ocW-jw-Nnd" id="wcb-1h-UMA"/>
+                        <outlet property="falaMaia" destination="0cq-SQ-B6A" id="bvh-vu-yHK"/>
+                        <segue destination="EcP-Ji-Xab" kind="show" identifier="paraMain" id="x1w-ah-BrG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="20"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="tFm-cq-hRZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="EcP-Ji-Xab" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="CKw-qD-Vqc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9EO-3A-hiY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500" y="-80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AioFeliz" width="238" height="211"/>
+        <image name="MaiaFeliz" width="133" height="193"/>
+        <image name="aioBalaozinho" width="36" height="25"/>
+        <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="fundo" width="844" height="390"/>
+        <image name="maiaBaozinho" width="30" height="23"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
