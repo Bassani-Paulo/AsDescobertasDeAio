@@ -78,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				272D942F268B4669001201D4 /* Main.storyboard */,
+				2727FD8D2693511A004395B1 /* AudioManager.swift */,
 				272D942D268B4669001201D4 /* ViewController.swift */,
 				833C21E32693530E004C5F5D /* JornadaCellView.swift */,
 				833C21E5269360DE004C5F5D /* Jornadas.json */,
@@ -160,7 +161,6 @@
 				272D9432268B466A001201D4 /* Assets.xcassets */,
 				272D9437268B466A001201D4 /* Info.plist */,
 				2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */,
-				2727FD8D2693511A004395B1 /* AudioManager.swift */,
 			);
 			path = "As Descobertas de Aiô";
 			sourceTree = "<group>";
