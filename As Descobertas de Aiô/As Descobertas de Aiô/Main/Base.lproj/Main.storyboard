@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -15,7 +15,7 @@
             <objects>
                 <viewController storyboardIdentifier="MainStoryboard" id="BYZ-38-t0r" customClass="ViewController" customModule="As_Descobertas_de_Aio_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-h1-A6B">
@@ -90,7 +90,7 @@
                                 <accessibility key="accessibilityConfiguration" label="Conquistas"/>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu7-df-Exj">
-                                <rect key="frame" x="60" y="140" width="836" height="227"/>
+                                <rect key="frame" x="60" y="140" width="784" height="227"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="43" minimumInteritemSpacing="43" id="B2B-Er-O0P">
@@ -102,7 +102,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="jornadaCell" id="mVm-HV-Mwm" customClass="JornadaCellView" customModule="As_Descobertas_de_Aio_" customModuleProvider="target">
-                                        <rect key="frame" x="60" y="14.5" width="291" height="198"/>
+                                        <rect key="frame" x="60" y="14.666666666666666" width="291" height="198"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uKy-Wv-YVS">
                                             <rect key="frame" x="0.0" y="0.0" width="291" height="198"/>
@@ -193,10 +193,10 @@
             </objects>
             <point key="canvasLocation" x="423.21428571428572" y="8.6956521739130448"/>
         </scene>
-        <!--JornadaEcologia-->
+        <!--Jogo-->
         <scene sceneID="30W-xD-fjY">
             <objects>
-                <viewControllerPlaceholder storyboardName="JornadaEcologiaStoryboard" referencedIdentifier="JornadaEcologia" id="hbA-WI-2Jx" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Jogo" referencedIdentifier="Jogo" id="hbA-WI-2Jx" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="mOx-Yr-SYG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oVM-aS-oji" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
