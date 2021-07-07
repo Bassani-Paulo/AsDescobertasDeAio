@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-h1-A6B">
-                                <rect key="frame" x="-51" y="-19" width="1031" height="476"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-h1-A6B">
+                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jornadas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzv-IP-bH3">
                                 <rect key="frame" x="120" y="97" width="88" height="26"/>
@@ -177,6 +176,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OYk-h1-A6B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Gw-c3-Hor"/>
+                            <constraint firstAttribute="bottom" secondItem="OYk-h1-A6B" secondAttribute="bottom" id="RWn-E6-Qf6"/>
+                            <constraint firstItem="OYk-h1-A6B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WjB-tw-jgh"/>
+                            <constraint firstAttribute="trailing" secondItem="OYk-h1-A6B" secondAttribute="trailing" id="feT-7g-onh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eaV-ga-iAG"/>
                     <connections>
@@ -223,15 +228,15 @@
             </objects>
             <point key="canvasLocation" x="845" y="-272"/>
         </scene>
-        <!--Ajustes-->
+        <!--AjustesStoryboard-->
         <scene sceneID="kyA-lX-O7E">
             <objects>
-                <viewControllerPlaceholder storyboardName="AjustesStoryboard" referencedIdentifier="Ajustes" id="gPw-uM-rIh" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="AjustesStoryboard" id="gPw-uM-rIh" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="FFc-B7-Czp"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8N6-Gx-gXe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="119"/>
+            <point key="canvasLocation" x="877" y="45"/>
         </scene>
     </scenes>
     <resources>

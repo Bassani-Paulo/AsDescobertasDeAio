@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */; };
 		1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */; };
 		1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D160268B51F300B4A780 /* ExplorarViewController.swift */; };
 		1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */; };
-		1629D167268B536400B4A780 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D166268B536400B4A780 /* AjustesViewController.swift */; };
+		1629D167268B536400B4A780 /* ContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D166268B536400B4A780 /* ContaViewController.swift */; };
 		1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16A268B54BD00B4A780 /* ConquistasStoryboard.storyboard */; };
 		1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D16C268B551500B4A780 /* ConquistasViewController.swift */; };
 		1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */; };
 		1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */; };
+		2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */; };
+		2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727FD8D2693511A004395B1 /* AudioManager.swift */; };
 		272D942A268B4669001201D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D9429268B4669001201D4 /* AppDelegate.swift */; };
 		272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942B268B4669001201D4 /* SceneDelegate.swift */; };
 		272D942E268B4669001201D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D942D268B4669001201D4 /* ViewController.swift */; };
 		272D9431268B4669001201D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D942F268B4669001201D4 /* Main.storyboard */; };
 		272D9433268B466A001201D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272D9432268B466A001201D4 /* Assets.xcassets */; };
 		272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272D9434268B466A001201D4 /* LaunchScreen.storyboard */; };
+		27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3E12E268CC32E0051B600 /* AjustesViewController.swift */; };
 		833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E32693530E004C5F5D /* JornadaCellView.swift */; };
 		833C21E6269360DE004C5F5D /* Jornadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 833C21E5269360DE004C5F5D /* Jornadas.json */; };
 		833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E72693629F004C5F5D /* JornadasModel.swift */; };
@@ -30,15 +32,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testeGitStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
 		1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AjustesStoryboard.storyboard; sourceTree = "<group>"; };
-		1629D166268B536400B4A780 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		1629D166268B536400B4A780 /* ContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaViewController.swift; sourceTree = "<group>"; };
 		1629D16A268B54BD00B4A780 /* ConquistasStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConquistasStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D16C268B551500B4A780 /* ConquistasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasViewController.swift; sourceTree = "<group>"; };
 		1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JornadaEcologiaStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaEcologiaViewController.swift; sourceTree = "<group>"; };
+		2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Curious Kitten - Aaron Kenny.mp3"; sourceTree = "<group>"; };
+		2727FD8D2693511A004395B1 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		272D9426268B4669001201D4 /* As Descobertas de Aiô.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "As Descobertas de Aiô.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272D9429268B4669001201D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		272D942B268B4669001201D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		272D9432268B466A001201D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272D9435268B466A001201D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		272D9437268B466A001201D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D3E12E268CC32E0051B600 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 		833C21E32693530E004C5F5D /* JornadaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaCellView.swift; sourceTree = "<group>"; };
 		833C21E5269360DE004C5F5D /* Jornadas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jornadas.json; sourceTree = "<group>"; };
 		833C21E72693629F004C5F5D /* JornadasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadasModel.swift; sourceTree = "<group>"; };
@@ -65,14 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1621BEB7268CB01A00DA934B /* pastateste */ = {
-			isa = PBXGroup;
-			children = (
-				1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */,
-			);
-			path = pastateste;
-			sourceTree = "<group>";
-		};
 		1629D159268B503100B4A780 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				272D942F268B4669001201D4 /* Main.storyboard */,
+				2727FD8D2693511A004395B1 /* AudioManager.swift */,
 				272D942D268B4669001201D4 /* ViewController.swift */,
 				833C21E32693530E004C5F5D /* JornadaCellView.swift */,
 				833C21E5269360DE004C5F5D /* Jornadas.json */,
@@ -115,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */,
-				1629D166268B536400B4A780 /* AjustesViewController.swift */,
+				1629D166268B536400B4A780 /* ContaViewController.swift */,
+				27D3E12E268CC32E0051B600 /* AjustesViewController.swift */,
 			);
 			path = Ajustes;
 			sourceTree = "<group>";
@@ -159,7 +157,6 @@
 		272D9428268B4669001201D4 /* As Descobertas de Aiô */ = {
 			isa = PBXGroup;
 			children = (
-				1621BEB7268CB01A00DA934B /* pastateste */,
 				1629D169268B540300B4A780 /* Conquistas */,
 				1629D168268B53CB00B4A780 /* JornadaEcologia */,
 				1629D163268B523F00B4A780 /* Ajustes */,
@@ -169,6 +166,7 @@
 				1629D159268B503100B4A780 /* Delegates */,
 				272D9432268B466A001201D4 /* Assets.xcassets */,
 				272D9437268B466A001201D4 /* Info.plist */,
+				2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */,
 			);
 			path = "As Descobertas de Aiô";
 			sourceTree = "<group>";
@@ -238,8 +236,8 @@
 				1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */,
 				1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */,
 				272D9431268B4669001201D4 /* Main.storyboard in Resources */,
-				1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */,
 				1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */,
+				2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				272D942E268B4669001201D4 /* ViewController.swift in Sources */,
-				1629D167268B536400B4A780 /* AjustesViewController.swift in Sources */,
+				1629D167268B536400B4A780 /* ContaViewController.swift in Sources */,
 				833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */,
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
+				27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
+				2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
 				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
 				833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */,
@@ -407,13 +407,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FDH37VU772;
+				DEVELOPMENT_TEAM = 4DDKUVRF66;
 				INFOPLIST_FILE = "As Descobertas de Aiô/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.asdescobertasdeaio.As-Descobertas-de-Aio-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdescobertasdeaio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,13 +426,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FDH37VU772;
+				DEVELOPMENT_TEAM = 4DDKUVRF66;
 				INFOPLIST_FILE = "As Descobertas de Aiô/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.asdescobertasdeaio.As-Descobertas-de-Aio-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdescobertasdeaio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

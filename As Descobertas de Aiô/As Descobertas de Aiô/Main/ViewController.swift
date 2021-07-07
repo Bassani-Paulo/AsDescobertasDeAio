@@ -13,24 +13,30 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var conquistas: UIView!
     @IBOutlet weak var explorar: UIView!
     @IBOutlet weak var ajustes: UIView!
-    
+
     var jornadasData:Jornadas!
-    
+
+    @IBAction func backToMain(_ segue: UIStoryboardSegue) {
+
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         jornadasCollectionView.dataSource = self
-        
+
         jornadasData = Jornadas()
-        
+
         adicionarGestureRecognizer()
+
+        AudioManager.shared.playMusic()
     }
-    
+
     func adicionarGestureRecognizer(){
         conquistas.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(gerenciaToque(_:))))
         explorar.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(gerenciaToque(_:))))
         ajustes.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(gerenciaToque(_:))))
     }
-    
+
     @objc func gerenciaToque(_ gestureRecognizer: UIGestureRecognizer){
         if let viewTocada = gestureRecognizer.view{
             let segueIdentifier:String
@@ -42,11 +48,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             default:
                 segueIdentifier = "ajustes"
             }
-            
+
             performSegue(withIdentifier: segueIdentifier, sender: self)
         }
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if let qtd = jornadasData.getJornadas()?.jornadas.count{
             return qtd
@@ -54,14 +60,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             return 0
         }
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "jornadaCell", for: indexPath) as! JornadaCellView
-        
+
         if let jornadaAtual = jornadasData.getJornada(i: indexPath.row){
-        
+
             cell.imgFundo.image = UIImage(named: jornadaAtual.imagemFundo)
-        
+
             if(jornadaAtual.bloqueado){
                 cell.efeitoBlur.effect = UIBlurEffect.init(style: UIBlurEffect.Style.systemUltraThinMaterialLight)
                 cell.efeitoBlur.frame.origin = CGPoint(x: 0, y: 0)
@@ -72,10 +78,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 cell.lblBloqueio.isHidden = true
             }
         }
-        
+
         return cell
     }
-    
 
 }
-
