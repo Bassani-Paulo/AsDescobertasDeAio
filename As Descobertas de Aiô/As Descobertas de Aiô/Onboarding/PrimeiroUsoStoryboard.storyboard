@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Primeiro Uso View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="onboardingStoryboard" id="Y6W-OH-hqX" customClass="PrimeiroUsoViewController" customModule="As_Descobertas_de_Aio_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fundo" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-uV-Dd6">
+                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MaiaFeliz" translatesAutoresizingMaskIntoConstraints="NO" id="q5N-cD-YIN">
+                                <rect key="frame" x="91" y="149" width="133" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="q5N-cD-YIN" secondAttribute="height" multiplier="133:193" id="rwq-GA-XM6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aioFeliz" translatesAutoresizingMaskIntoConstraints="NO" id="PgM-qZ-5He">
+                                <rect key="frame" x="533" y="137" width="238" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="yQJ-NN-Q9o"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Knn-L4-IDJ" userLabel="falaView">
+                                <rect key="frame" x="253" y="35" width="191" height="180"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Olá! Eu me chamo MAIA. A gente tava explorando a área. Que bom que você chegou.&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlO-dQ-Udy">
+                                        <rect key="frame" x="15" y="10" width="161" height="101.66666666666667"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="ZlO-dQ-Udy" firstAttribute="centerX" secondItem="Knn-L4-IDJ" secondAttribute="centerX" id="5FR-2C-3a2"/>
+                                    <constraint firstItem="ZlO-dQ-Udy" firstAttribute="top" secondItem="Knn-L4-IDJ" secondAttribute="top" constant="10" id="5bk-rl-fgU"/>
+                                    <constraint firstItem="ZlO-dQ-Udy" firstAttribute="leading" secondItem="Knn-L4-IDJ" secondAttribute="leading" constant="15" id="Kfl-4Y-6TN"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZlO-dQ-Udy" secondAttribute="trailing" constant="15" id="nze-hg-voq"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indicadorBalao" translatesAutoresizingMaskIntoConstraints="NO" id="7F5-dO-LD6">
+                                <rect key="frame" x="188" y="149" width="36" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7F5-dO-LD6" secondAttribute="height" multiplier="36:25" id="WXD-am-ILy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indicacaoBalaoAio" translatesAutoresizingMaskIntoConstraints="NO" id="CKe-ha-4nv">
+                                <rect key="frame" x="533" y="137" width="36" height="25"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="q5N-cD-YIN" firstAttribute="top" secondItem="7F5-dO-LD6" secondAttribute="bottom" constant="-25" id="0Yr-M7-A9g"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Knn-L4-IDJ" secondAttribute="bottom" constant="154" id="1HZ-DE-8mg"/>
+                            <constraint firstItem="EeG-uV-Dd6" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="5SI-Lg-aiI"/>
+                            <constraint firstItem="q5N-cD-YIN" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="149" id="9Rp-Ah-Vlp"/>
+                            <constraint firstItem="PgM-qZ-5He" firstAttribute="top" secondItem="CKe-ha-4nv" secondAttribute="bottom" constant="-25" id="9hs-vh-Gvv"/>
+                            <constraint firstItem="Knn-L4-IDJ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="35" id="BJh-fu-TV5"/>
+                            <constraint firstItem="Knn-L4-IDJ" firstAttribute="leading" secondItem="q5N-cD-YIN" secondAttribute="trailing" constant="29" id="EZf-uA-L8a"/>
+                            <constraint firstItem="CKe-ha-4nv" firstAttribute="leading" secondItem="PgM-qZ-5He" secondAttribute="leading" id="IOT-Bb-qBp"/>
+                            <constraint firstItem="7F5-dO-LD6" firstAttribute="trailing" secondItem="q5N-cD-YIN" secondAttribute="trailing" id="K9p-9c-Og2"/>
+                            <constraint firstItem="EeG-uV-Dd6" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Lay-Je-ORS"/>
+                            <constraint firstItem="PgM-qZ-5He" firstAttribute="leading" secondItem="Knn-L4-IDJ" secondAttribute="trailing" constant="89" id="OHM-Ik-jC7"/>
+                            <constraint firstItem="7F5-dO-LD6" firstAttribute="top" secondItem="q5N-cD-YIN" secondAttribute="top" id="Pnb-sp-GWR"/>
+                            <constraint firstItem="q5N-cD-YIN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="47" id="WHK-m9-PYX"/>
+                            <constraint firstItem="EeG-uV-Dd6" firstAttribute="bottom" secondItem="5EZ-qb-Rvc" secondAttribute="bottom" id="ZEf-3r-UDR"/>
+                            <constraint firstItem="CKe-ha-4nv" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="137" id="bH3-sh-iXE"/>
+                            <constraint firstItem="CKe-ha-4nv" firstAttribute="leading" secondItem="Knn-L4-IDJ" secondAttribute="trailing" constant="89" id="eHE-3A-p9c"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="PgM-qZ-5He" secondAttribute="bottom" constant="21" id="tJO-0r-YI9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PgM-qZ-5He" secondAttribute="trailing" constant="29" id="ufD-9O-WJW"/>
+                            <constraint firstItem="CKe-ha-4nv" firstAttribute="top" secondItem="PgM-qZ-5He" secondAttribute="top" id="x1T-Rr-6Gn"/>
+                            <constraint firstItem="EeG-uV-Dd6" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="zI9-G5-Bop"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aioImagem" destination="PgM-qZ-5He" id="tCz-eg-xH4"/>
+                        <outlet property="balaoAio" destination="CKe-ha-4nv" id="qjU-Lb-gwU"/>
+                        <outlet property="balaoMaia" destination="7F5-dO-LD6" id="0tl-VO-fIn"/>
+                        <outlet property="falasLabel" destination="ZlO-dQ-Udy" id="GDs-Pc-eql"/>
+                        <outlet property="falasView" destination="Knn-L4-IDJ" id="zLr-od-hzR"/>
+                        <outlet property="maiaImagem" destination="q5N-cD-YIN" id="399-lG-zCl"/>
+                        <outlet property="proximoBotao" destination="PgM-qZ-5He" id="GDk-xo-Urh"/>
+                        <segue destination="XAz-ym-Q4R" kind="show" identifier="paraMain" id="Ukn-z4-ccy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108.05687203791469" y="-129.23076923076923"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="9QH-EW-fvb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="XAz-ym-Q4R" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="b9l-F1-Ya6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NtP-N8-zRT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="-377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fundo" width="1118" height="517"/>
+        <image name="MaiaFeliz" width="133" height="193"/>
+        <image name="aioFeliz" width="972" height="820"/>
+        <image name="indicacaoBalaoAio" width="36" height="25"/>
+        <image name="indicadorBalao" width="36" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

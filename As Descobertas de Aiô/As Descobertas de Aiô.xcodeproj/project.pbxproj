@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160CCDCE269723B2009D7902 /* PrimeiroUsoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160CCDCD269723B2009D7902 /* PrimeiroUsoStoryboard.storyboard */; };
+		160CCDD0269723C9009D7902 /* PrimeiroUsoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160CCDCF269723C9009D7902 /* PrimeiroUsoViewController.swift */; };
 		1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */; };
 		1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D160268B51F300B4A780 /* ExplorarViewController.swift */; };
 		1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */; };
@@ -15,6 +17,7 @@
 		1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D16C268B551500B4A780 /* ConquistasViewController.swift */; };
 		1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */; };
 		1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */; };
+		16C7271F26972A5C0022D8E3 /* FalasPrimeiroUso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7271E26972A5C0022D8E3 /* FalasPrimeiroUso.swift */; };
 		2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */; };
 		2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727FD8D2693511A004395B1 /* AudioManager.swift */; };
 		272D942A268B4669001201D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D9429268B4669001201D4 /* AppDelegate.swift */; };
@@ -32,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160CCDCD269723B2009D7902 /* PrimeiroUsoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrimeiroUsoStoryboard.storyboard; sourceTree = "<group>"; };
+		160CCDCF269723C9009D7902 /* PrimeiroUsoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroUsoViewController.swift; sourceTree = "<group>"; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
 		1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AjustesStoryboard.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		1629D16C268B551500B4A780 /* ConquistasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasViewController.swift; sourceTree = "<group>"; };
 		1629D16E268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JornadaEcologiaStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D170268B558700B4A780 /* JornadaEcologiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaEcologiaViewController.swift; sourceTree = "<group>"; };
+		16C7271E26972A5C0022D8E3 /* FalasPrimeiroUso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalasPrimeiroUso.swift; sourceTree = "<group>"; };
 		2721649326948D9E00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Curious Kitten - Aaron Kenny.mp3"; sourceTree = "<group>"; };
 		2727FD8D2693511A004395B1 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		272D9426268B4669001201D4 /* As Descobertas de Aiô.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "As Descobertas de Aiô.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160CCDCC26972393009D7902 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				160CCDCD269723B2009D7902 /* PrimeiroUsoStoryboard.storyboard */,
+				160CCDCF269723C9009D7902 /* PrimeiroUsoViewController.swift */,
+				16C7271E26972A5C0022D8E3 /* FalasPrimeiroUso.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		1629D159268B503100B4A780 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +173,7 @@
 		272D9428268B4669001201D4 /* As Descobertas de Aiô */ = {
 			isa = PBXGroup;
 			children = (
+				160CCDCC26972393009D7902 /* Onboarding */,
 				1629D169268B540300B4A780 /* Conquistas */,
 				1629D168268B53CB00B4A780 /* JornadaEcologia */,
 				1629D163268B523F00B4A780 /* Ajustes */,
@@ -237,6 +254,7 @@
 				1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */,
 				272D9431268B4669001201D4 /* Main.storyboard in Resources */,
 				1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */,
+				160CCDCE269723B2009D7902 /* PrimeiroUsoStoryboard.storyboard in Resources */,
 				2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160CCDD0269723C9009D7902 /* PrimeiroUsoViewController.swift in Sources */,
 				272D942E268B4669001201D4 /* ViewController.swift in Sources */,
+				16C7271F26972A5C0022D8E3 /* FalasPrimeiroUso.swift in Sources */,
 				1629D167268B536400B4A780 /* ContaViewController.swift in Sources */,
 				833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */,
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,

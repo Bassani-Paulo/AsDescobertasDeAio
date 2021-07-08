@@ -174,6 +174,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xby-pZ-1W6">
+                                <rect key="frame" x="319" y="32" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Apresentação"/>
+                                <connections>
+                                    <segue destination="X1R-8L-zD4" kind="presentation" id="CfX-5s-e91"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -211,6 +219,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PRF-sq-Bp9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="861" y="-90"/>
+        </scene>
+        <!--onboardingStoryboard-->
+        <scene sceneID="c5L-ko-2g1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PrimeiroUsoStoryboard" referencedIdentifier="onboardingStoryboard" id="X1R-8L-zD4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hNM-QE-U9n"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5hc-rg-C7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="-509"/>
         </scene>
         <!--Conquistas-->
         <scene sceneID="vqK-w7-dEX">
