@@ -18,8 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-h1-A6B">
-                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fundo" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-h1-A6B">
+                                <rect key="frame" x="0.0" y="-21" width="937" height="433"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jornadas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzv-IP-bH3">
                                 <rect key="frame" x="120" y="97" width="88" height="26"/>
@@ -89,7 +90,7 @@
                                 <accessibility key="accessibilityConfiguration" label="Conquistas"/>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu7-df-Exj">
-                                <rect key="frame" x="60" y="140" width="836" height="227"/>
+                                <rect key="frame" x="60" y="140" width="784" height="227"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="43" minimumInteritemSpacing="43" id="B2B-Er-O0P">
@@ -176,14 +177,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="OYk-h1-A6B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Gw-c3-Hor"/>
-                            <constraint firstAttribute="bottom" secondItem="OYk-h1-A6B" secondAttribute="bottom" id="RWn-E6-Qf6"/>
-                            <constraint firstItem="OYk-h1-A6B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WjB-tw-jgh"/>
-                            <constraint firstAttribute="trailing" secondItem="OYk-h1-A6B" secondAttribute="trailing" id="feT-7g-onh"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="eaV-ga-iAG"/>
                     <connections>
                         <outlet property="ajustes" destination="Z09-9h-AXA" id="Vjv-Rj-PDk"/>
                         <outlet property="conquistas" destination="liC-hA-XDH" id="Eg8-jY-JUU"/>
@@ -196,12 +190,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="423.21428571428572" y="8.6956521739130448"/>
+            <point key="canvasLocation" x="422.98578199052133" y="7.6923076923076916"/>
         </scene>
-        <!--JornadaEcologia-->
+        <!--Jogo-->
         <scene sceneID="30W-xD-fjY">
             <objects>
-                <viewControllerPlaceholder storyboardName="JornadaEcologiaStoryboard" referencedIdentifier="JornadaEcologia" id="hbA-WI-2Jx" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Jogo" referencedIdentifier="Jogo" id="hbA-WI-2Jx" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="mOx-Yr-SYG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oVM-aS-oji" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -240,8 +234,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fundo" width="1118" height="517"/>
         <image name="cardReciclagem" width="996" height="677"/>
-        <image name="fundo" width="1118" height="517"/>
         <image name="gearshape.2.fill" catalog="system" width="128" height="100"/>
         <image name="lock.fill" catalog="system" width="128" height="128"/>
         <image name="play.tv" catalog="system" width="128" height="97"/>

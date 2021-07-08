@@ -28,9 +28,13 @@
 		2799431F2697975100B9CF0D /* Fase1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799431E2697975100B9CF0D /* Fase1ViewController.swift */; };
 		279943212697975F00B9CF0D /* Fase2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279943202697975F00B9CF0D /* Fase2ViewController.swift */; };
 		27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3E12E268CC32E0051B600 /* AjustesViewController.swift */; };
+		833B06FB269723A5009A515B /* Recompensa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833B06FA269723A5009A515B /* Recompensa.storyboard */; };
+		833B06FD269723C7009A515B /* Recompensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B06FC269723C7009A515B /* Recompensa.swift */; };
 		833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E32693530E004C5F5D /* JornadaCellView.swift */; };
 		833C21E6269360DE004C5F5D /* Jornadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 833C21E5269360DE004C5F5D /* Jornadas.json */; };
 		833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21E72693629F004C5F5D /* JornadasModel.swift */; };
+		833C21EA26947E99004C5F5D /* Jogo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833C21E926947E99004C5F5D /* Jogo.storyboard */; };
+		833C21EC26947F23004C5F5D /* JogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C21EB26947F23004C5F5D /* JogoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,9 +61,13 @@
 		2799431E2697975100B9CF0D /* Fase1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fase1ViewController.swift; sourceTree = "<group>"; };
 		279943202697975F00B9CF0D /* Fase2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fase2ViewController.swift; sourceTree = "<group>"; };
 		27D3E12E268CC32E0051B600 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		833B06FA269723A5009A515B /* Recompensa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recompensa.storyboard; sourceTree = "<group>"; };
+		833B06FC269723C7009A515B /* Recompensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recompensa.swift; sourceTree = "<group>"; };
 		833C21E32693530E004C5F5D /* JornadaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaCellView.swift; sourceTree = "<group>"; };
 		833C21E5269360DE004C5F5D /* Jornadas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jornadas.json; sourceTree = "<group>"; };
 		833C21E72693629F004C5F5D /* JornadasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadasModel.swift; sourceTree = "<group>"; };
+		833C21E926947E99004C5F5D /* Jogo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jogo.storyboard; sourceTree = "<group>"; };
+		833C21EB26947F23004C5F5D /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,10 @@
 				2799431E2697975100B9CF0D /* Fase1ViewController.swift */,
 				2799431C2697967D00B9CF0D /* Fase2Storyboard.storyboard */,
 				279943202697975F00B9CF0D /* Fase2ViewController.swift */,
+				833C21E926947E99004C5F5D /* Jogo.storyboard */,
+				833C21EB26947F23004C5F5D /* JogoViewController.swift */,
+				833B06FA269723A5009A515B /* Recompensa.storyboard */,
+				833B06FC269723C7009A515B /* Recompensa.swift */,
 			);
 			path = JornadaEcologia;
 			sourceTree = "<group>";
@@ -237,6 +249,7 @@
 				272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */,
 				833C21E6269360DE004C5F5D /* Jornadas.json in Resources */,
 				1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */,
+				833C21EA26947E99004C5F5D /* Jogo.storyboard in Resources */,
 				272D9433268B466A001201D4 /* Assets.xcassets in Resources */,
 				1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */,
 				1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */,
@@ -244,6 +257,7 @@
 				272D9431268B4669001201D4 /* Main.storyboard in Resources */,
 				1629D16F268B556E00B4A780 /* JornadaEcologiaStoryboard.storyboard in Resources */,
 				2799431B2697965700B9CF0D /* Fase1Storyboard.storyboard in Resources */,
+				833B06FB269723A5009A515B /* Recompensa.storyboard in Resources */,
 				2721649426948D9F00A5B815 /* The Curious Kitten - Aaron Kenny.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +274,7 @@
 				833C21E42693530E004C5F5D /* JornadaCellView.swift in Sources */,
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
+				833B06FD269723C7009A515B /* Recompensa.swift in Sources */,
 				27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
 				2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */,
@@ -268,6 +283,7 @@
 				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
 				833C21E82693629F004C5F5D /* JornadasModel.swift in Sources */,
 				2799431F2697975100B9CF0D /* Fase1ViewController.swift in Sources */,
+				833C21EC26947F23004C5F5D /* JogoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
