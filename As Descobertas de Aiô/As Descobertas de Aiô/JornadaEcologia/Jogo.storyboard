@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="29l-OF-7cl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fundo" translatesAutoresizingMaskIntoConstraints="NO" id="29l-OF-7cl">
                                 <rect key="frame" x="-17" y="-15" width="878" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -271,11 +271,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fundo" width="1118" height="517"/>
         <image name="aioNormal" width="972" height="820"/>
         <image name="canudo" width="370" height="353"/>
         <image name="colher" width="423" height="421"/>
         <image name="copo" width="217" height="377"/>
-        <image name="fundo" width="1118" height="517"/>
         <image name="garrafa" width="367" height="828"/>
         <image name="indicadorBalao" width="36" height="25"/>
         <image name="lata" width="445" height="753"/>
