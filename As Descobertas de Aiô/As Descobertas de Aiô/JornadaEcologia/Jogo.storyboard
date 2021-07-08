@@ -195,6 +195,9 @@
                                         <state key="normal" image="play.circle.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="37"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="DzT-Da-NVe" kind="showDetail" id="3xH-PU-9bl"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -268,6 +271,16 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="138.6255924170616" y="109.23076923076923"/>
+        </scene>
+        <!--Recompensa-->
+        <scene sceneID="eiU-iZ-TVd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Recompensa" referencedIdentifier="Recompensa" id="DzT-Da-NVe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6bv-T7-6UO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hpo-jg-doR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="109"/>
         </scene>
     </scenes>
     <resources>
