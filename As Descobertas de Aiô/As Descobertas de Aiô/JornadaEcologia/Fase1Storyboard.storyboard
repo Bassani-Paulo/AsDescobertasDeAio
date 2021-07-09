@@ -8,34 +8,154 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fase1 View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="Fase1ViewController" customModule="As_Descobertas_de_Aio_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmz-OO-OrE">
-                                <rect key="frame" x="229" y="180" width="386" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fundo" translatesAutoresizingMaskIntoConstraints="NO" id="Zeg-i1-uEU">
+                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="This is a placeholder, tap here to go back to main screen"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmz-OO-OrE">
+                                <rect key="frame" x="60" y="28" width="39" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
+                                </state>
                                 <connections>
                                     <segue destination="rKO-wE-PNl" kind="unwind" unwindAction="backToMain:" id="jcU-uA-Fks"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lixoNormal" translatesAutoresizingMaskIntoConstraints="NO" id="2fw-z1-hTr">
+                                <rect key="frame" x="226" y="259" width="84" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aioNormal" translatesAutoresizingMaskIntoConstraints="NO" id="i7a-gd-da3">
+                                <rect key="frame" x="699" y="151" width="160" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maiaNormal" translatesAutoresizingMaskIntoConstraints="NO" id="qWc-eL-gkn">
+                                <rect key="frame" x="-89" y="214" width="101" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTS-6h-DAC">
+                                <rect key="frame" x="745" y="28" width="39" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" image="arrow.forward.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="H5Q-ab-aHE" kind="show" identifier="irMapa" id="FPu-M7-RLs"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feA-KQ-ZNr">
+                                <rect key="frame" x="268" y="57" width="308" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIb-i9-Etc">
+                                        <rect key="frame" x="33.834872814761638" y="5.5918727100508931" width="240.00000000000011" height="170"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRS-YE-IYQ">
+                                                <rect key="frame" x="16.610587250064782" y="11.819317491896982" width="206.00000000000011" height="148.00000000000003"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Hey, que bom que você recolheu. Lixo não deve ficar no chão! Mas você sabia que isso pode ser reciclado? 
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicadorBalao" translatesAutoresizingMaskIntoConstraints="NO" id="NDN-31-cfl">
+                                        <rect key="frame" x="0.0" y="121" width="36" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicadorBalaoDireita" translatesAutoresizingMaskIntoConstraints="NO" id="Vk5-RW-JXw">
+                                        <rect key="frame" x="272" y="121" width="36" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="garrafa" translatesAutoresizingMaskIntoConstraints="NO" id="Cpf-eB-6wo">
+                                <rect key="frame" x="469" y="267" width="43" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Edo-BG-2AT" appends="YES" id="BKV-1g-WrR"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Unt-Ji-S75" appends="YES" id="qfb-vv-6IE"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="aioView" destination="i7a-gd-da3" id="MDw-lb-D62"/>
+                        <outlet property="balaoView" destination="feA-KQ-ZNr" id="FgN-xq-awi"/>
+                        <outlet property="btnProximo" destination="UTS-6h-DAC" id="Faw-hd-JBm"/>
+                        <outlet property="indicadorBalaoAio" destination="Vk5-RW-JXw" id="bwa-P5-SHN"/>
+                        <outlet property="indicadorBalaoMaia" destination="NDN-31-cfl" id="mLr-eE-99v"/>
+                        <outlet property="lblTexto" destination="sRS-YE-IYQ" id="Y0x-KB-7bK"/>
+                        <outlet property="lixoView" destination="2fw-z1-hTr" id="A9b-4B-wYO"/>
+                        <outlet property="maiaView" destination="qWc-eL-gkn" id="Fdd-gw-KQ0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="rKO-wE-PNl" userLabel="Exit" sceneMemberID="exit"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Edo-BG-2AT">
+                    <connections>
+                        <action selector="arrastarLixo:" destination="Y6W-OH-hqX" id="Vw8-u8-vkn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="Unt-Ji-S75">
+                    <connections>
+                        <action selector="toqueTela:" destination="Y6W-OH-hqX" id="Q0u-aq-rmW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="132" y="95"/>
+            <point key="canvasLocation" x="131.51658767772511" y="93.84615384615384"/>
+        </scene>
+        <!--JornadaEcologia-->
+        <scene sceneID="PBS-o9-pKX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="JornadaEcologiaStoryboard" referencedIdentifier="JornadaEcologia" id="H5Q-ab-aHE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="W9K-RF-wZw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UqA-fY-VW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556" y="94"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Fundo" width="1118" height="517"/>
+        <image name="aioNormal" width="972" height="820"/>
+        <image name="arrow.forward.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="garrafa" width="367" height="828"/>
+        <image name="indicadorBalao" width="36" height="25"/>
+        <image name="indicadorBalaoDireita" width="36" height="25"/>
+        <image name="lixoNormal" width="816" height="920"/>
+        <image name="maiaNormal" width="727" height="1060"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

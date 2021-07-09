@@ -1,0 +1,28 @@
+{
+    "fase": [
+        {
+        "pagina": [
+            {
+                "texto": "Ei! Isto não deveria estar aqui! Você pode me ajudar a jogar essa garrafa no lixo?",
+                "maia": true,
+                "aio": false,
+                "imagensView": []
+            },{
+                "texto": "Hey, que bom que você recolheu. Lixo não deve ficar no chão! Mas você sabia que isso pode ser reciclado?",
+                "maia": false,
+                "aio": true,
+                "imagensView": []
+            },{
+                "texto": "Reciclado? Mas eu não sei fazer isso… não sei o que é, na verdade.",
+                "maia": true,
+                "aio": false,
+                "imagensView": []
+            },{
+                "texto": "Tudo bem. Vamos conversar sobre isso. Vamos andar mais um pouquinho que eu explico.",
+                "maia": false,
+                "aio": true,
+                "imagensView": []
+            }]
+        }
+    ]
+}
