@@ -9,45 +9,50 @@ import UIKit
 
 class PrimeiroUsoViewController: UIViewController {
 
-	@IBOutlet weak var falasView: UIView!
-	@IBOutlet weak var aioImagem: UIImageView!
+	@IBOutlet weak var maiaImageView: UIImageView!
+	//
+	@IBOutlet weak var aioImageView: UIImageView!
 	
-	@IBOutlet weak var balaoAio: UIImageView!
-		
-	@IBOutlet weak var maiaImagem: UIImageView!
+	@IBOutlet weak var falaView: UIView!
 	
+	@IBOutlet weak var falaLabel: UILabel!
+	//
 	@IBOutlet weak var balaoMaia: UIImageView!
 	
-	@IBOutlet weak var falasLabel: UILabel!
-		
-//	@IBAction func proximoBotao(_ sender: Any) {
-//		pagina = pagina + 1
-//		quefalaExibir()
-//
-//	}
+	@IBOutlet weak var balaoAio: UIImageView!
+	
 	
 	var pagina = 0
-	let falando = FalasOnboarding()
-	
-	func quefalaExibir() {
+	let oQueApareceNoLabel = FalasOnboarding()
+	@IBAction func botaoSeguinte(_ sender: Any) {
+		pagina += 1
 		
-		falasLabel.text = falando.falas[pagina]
-		balaoAio.isHidden = falando.quemTaFalando[pagina].aio
-		balaoMaia.isHidden = falando.quemTaFalando[pagina].maia
-		
-		if pagina > falando.falas.count - 1 {
-			performSegue(withIdentifier: "paraMain", sender: nil)
+		if pagina > oQueApareceNoLabel.falas.count - 1 {
+					performSegue(withIdentifier: "paraMain", sender: nil)
+		} else {
+		falaLabel.text = oQueApareceNoLabel.falas[pagina]
 		}
 	}
+	
+	
+	
+
+	//func quefalaExibir() {
+
+		
+//		balaoAio.isHidden = oQueApareceNoLabel.quemTaFalando[pagina].aio
+//		balaoMaia.isHidden = oQueApareceNoLabel.quemTaFalando[pagina].maia
+
+	//}
 	override func viewDidLoad() {
         super.viewDidLoad()
-		
-		falasView.layer.cornerRadius = 13
-		aioImagem.isHidden = false
-		balaoAio.isHidden = false
+
+//		falasView.layer.cornerRadius = 13
+//		aioImagem.isHidden = false
+//		balaoAio.isHidden = false
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
