@@ -21,7 +21,7 @@ class PrimeiroUsoViewController: UIViewController {
 	
 	@IBOutlet weak var balaoAio: UIImageView!
 	
-	
+	//HIDDEN É O OPOSTO DE SHOW, AFF
 	var pagina = 0
 	let oQueApareceNoLabel = FalasOnboarding()
 	@IBAction func botaoSeguinte(_ sender: Any) {
@@ -30,38 +30,19 @@ class PrimeiroUsoViewController: UIViewController {
 		if pagina > oQueApareceNoLabel.falas.count - 1 {
 					performSegue(withIdentifier: "paraMain", sender: nil)
 		} else {
-		falaLabel.text = oQueApareceNoLabel.falas[pagina]
+			aioImageView.isHidden = false
+			falaLabel.text = oQueApareceNoLabel.falas[pagina]
+			balaoAio.isHidden = oQueApareceNoLabel.quemTaFalando[pagina].aio
+			balaoMaia.isHidden = oQueApareceNoLabel.quemTaFalando[pagina].maia
+
 		}
 	}
-	
-	
-	
-
-	//func quefalaExibir() {
-
-		
-//		balaoAio.isHidden = oQueApareceNoLabel.quemTaFalando[pagina].aio
-//		balaoMaia.isHidden = oQueApareceNoLabel.quemTaFalando[pagina].maia
-
-	//}
 	override func viewDidLoad() {
         super.viewDidLoad()
 
-//		falasView.layer.cornerRadius = 13
-//		aioImagem.isHidden = false
-//		balaoAio.isHidden = false
+		falaView.layer.cornerRadius = 13
+		aioImageView.isHidden = true
+		balaoAio.isHidden = true
         // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

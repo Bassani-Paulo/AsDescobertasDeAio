@@ -175,9 +175,9 @@
                                 </collectionReusableView>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xby-pZ-1W6">
-                                <rect key="frame" x="319" y="32" width="95" height="30"/>
+                                <rect key="frame" x="308" y="32" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Apresentação"/>
+                                <state key="normal" title="Primeira vez aqui"/>
                                 <connections>
                                     <segue destination="YbP-CK-kng" kind="presentation" id="clr-9M-vVb"/>
                                 </connections>

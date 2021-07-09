@@ -9,11 +9,11 @@ public struct FalasOnboarding {
 				/* 4, aio*/"hum... eu não sei! Que tal uma ajudinha para escolher o caminho?"
 	]
 	
-	let quemTaFalando = [(maia:true, aio: false),
+	let quemTaFalando = [(maia:false, aio: true),
+						 (maia:true, aio:false),
 						 (maia:false, aio:true),
-						 (maia:true, aio:false),
-						 (maia:true, aio:false),
-						 (maia:false, aio:true)
+						 (maia:false, aio:true),
+						 (maia:true, aio:false)
 	
 	]
 	
