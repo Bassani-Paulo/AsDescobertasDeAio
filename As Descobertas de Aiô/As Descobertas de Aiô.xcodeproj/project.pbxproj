@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1552980526949D3300EECB0F /* ConquistasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552980326949D3300EECB0F /* ConquistasCollectionViewCell.swift */; };
+		1552980626949D3300EECB0F /* ConquistasCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1552980426949D3300EECB0F /* ConquistasCollectionViewCell.xib */; };
+		1552980A26949FD100EECB0F /* Conquistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552980926949FD100EECB0F /* Conquistas.swift */; };
 		1621BEB9268CB04700DA934B /* testeGitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */; };
 		1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */; };
 		1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D160268B51F300B4A780 /* ExplorarViewController.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1552980326949D3300EECB0F /* ConquistasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasCollectionViewCell.swift; sourceTree = "<group>"; };
+		1552980426949D3300EECB0F /* ConquistasCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConquistasCollectionViewCell.xib; sourceTree = "<group>"; };
+		1552980926949FD100EECB0F /* Conquistas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conquistas.swift; sourceTree = "<group>"; };
 		1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testeGitStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1552980726949F1800EECB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1552980926949FD100EECB0F /* Conquistas.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1552980826949F2500EECB0F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1552980326949D3300EECB0F /* ConquistasCollectionViewCell.swift */,
+				1552980426949D3300EECB0F /* ConquistasCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1621BEB7268CB01A00DA934B /* pastateste */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +142,8 @@
 		1629D169268B540300B4A780 /* Conquistas */ = {
 			isa = PBXGroup;
 			children = (
+				1552980826949F2500EECB0F /* Cells */,
+				1552980726949F1800EECB0F /* Models */,
 				1629D16A268B54BD00B4A780 /* ConquistasStoryboard.storyboard */,
 				1629D16C268B551500B4A780 /* ConquistasViewController.swift */,
 			);
@@ -216,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */,
+				1552980626949D3300EECB0F /* ConquistasCollectionViewCell.xib in Resources */,
 				1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */,
 				272D9433268B466A001201D4 /* Assets.xcassets in Resources */,
 				1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */,
@@ -238,7 +264,9 @@
 				1629D16D268B551500B4A780 /* ConquistasViewController.swift in Sources */,
 				272D942A268B4669001201D4 /* AppDelegate.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
+				1552980A26949FD100EECB0F /* Conquistas.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
+				1552980526949D3300EECB0F /* ConquistasCollectionViewCell.swift in Sources */,
 				1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
