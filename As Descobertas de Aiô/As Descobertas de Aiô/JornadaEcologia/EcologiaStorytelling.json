@@ -1,0 +1,141 @@
+{
+    "fase": [
+        {
+        "pagina": [
+            {
+                "texto": "Ei! Isto não deveria estar aqui! Você pode me ajudar a jogar esta garrafa no lixo?",
+                "maia": true,
+                "aio": false,
+                "imagensView": []
+            },{
+                "texto": "Hey, que bom que você recolheu. Lixo não deve ficar no chão! Mas você sabia que isso pode ser reciclado?",
+                "maia": false,
+                "aio": true,
+                "imagensView": []
+            },{
+                "texto": "Reciclado? Mas eu não sei fazer isso… não sei o que é, na verdade.",
+                "maia": true,
+                "aio": false,
+                "imagensView": []
+            },{
+                "texto": "Tudo bem. Vamos conversar sobre isso. Vamos andar mais um pouquinho que eu explico.",
+                "maia": false,
+                "aio": true,
+                "imagensView": []
+            }]
+        },{
+            "pagina": [
+                {
+                    "texto": "Reciclagem é o processo de reaproveitamento do lixo descartado que dá origem a um novo produto.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Por exemplo, a garrafa que você jogou no lixo, se reciclada, poderia virar uma garrafa nova ou um brinquedo de plástico!",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Eu não sabia. Mas que diferença faz jogar no lixo ou reciclar? ",
+                    "maia": true,
+                    "aio": false,
+                    "imagensView": []
+                },{
+                    "texto": "A reciclagem é importante porque reduz o número de lixo no planeta e também diminui a procura e uso de novas matérias primas.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Eu não sei o que é matéria prima. Mas como eu faço para reciclar?",
+                    "maia": true,
+                    "aio": false,
+                    "imagensView": []
+                },{
+                    "texto": "Vamos com calma. Que tal pensarmos em do que as coisas do nosso dia a dia são feitas?",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Existem 4 materiais básicos que são recicláveis: papel, plástico, metal e vidro.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "As lentes do óculos de uma pessoa costumam ser vidro, por exemplo.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": ["oculos"]
+                },{
+                    "texto": "Que tal pensarmos em exemplos de outros materiais?",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Você me ajuda? Procure na sua casa, perto de você, algum papel e algo feito de plástico. Eu vou procurar algo de metal.",
+                    "maia": true,
+                    "aio": false,
+                    "imagensView": []
+                },{
+                    "texto": "Quando voltar, é só tocar em mim que a gente vê o que achou. Peça ajuda para alguém maior que você se precisar.",
+                    "maia": true,
+                    "aio": false,
+                    "imagensView": []
+                },{
+                    "texto": "Que legal tudo o que vocês encontraram!",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Vamos olhar ao redor? Onde você está existem mais coisas de plástico?",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": ["plasticoLixo"]
+                },{
+                    "texto": "Que legal! Olhe onde você está: existem mais coisas de plástico ou de papel perto de você?",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": ["plasticoLixo", "papelLixo"]
+                },{
+                    "texto": "Muito interessante! Vocês sabiam que o plástico é um dos maiores problemas de lixo atuais?",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Tem muito plástico sendo jogado fora e cada vez mais a gente usa. E tudo isso fica jogado no mundo por tempo demais.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Poxa, e como posso ajudar?",
+                    "maia": true,
+                    "aio": false,
+                    "imagensView": []
+                },{
+                    "texto": "Podemos começar a separar o lixo no lugar certos para reciclagem. Tudo que é plástico, vai no lixo vermelho.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Tudo o que é papel, vai no azul.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Os metais, vão no lixo amarelo.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "E os vidros vão nesse lixo verde.",
+                    "maia": false,
+                    "aio": true,
+                    "imagensView": []
+                },{
+                    "texto": "Que legal. O que você achou aí na sua casa pode não ser lixo, mas você me ajuda a separar os lixos que eu encontrei aqui?",
+                    "maia": true,
+                    "aio": false,
+                    "imagensView": []
+                },]
+        }
+    ]
+}

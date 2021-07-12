@@ -19,7 +19,7 @@ class Recompensa:UIViewController{
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(false)
+        super.viewDidAppear(animated)
         animarComponentes()
     }
     
