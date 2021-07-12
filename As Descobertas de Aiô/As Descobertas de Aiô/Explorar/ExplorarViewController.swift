@@ -38,6 +38,8 @@ class ExplorarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        AudioManager.shared.pauseMusic()
+        
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Fundo.png")!)
         
         view.addSubview(collectionView)
@@ -101,8 +103,8 @@ class ExplorarViewController: UIViewController {
     }()
     
     @IBAction func backAction(_ sender: UIButton!) {
-       let _ = self.dismiss(animated: true, completion: nil)
-        print("tapped button")
+        let _ = self.dismiss(animated: true, completion: nil)
+        AudioManager.shared.playMusic()
     }
 
 }
