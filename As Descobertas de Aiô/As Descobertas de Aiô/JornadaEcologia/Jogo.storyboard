@@ -168,7 +168,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="i61-tb-2TL" appends="YES" id="txB-Vc-ecK"/>
+                                    <segue destination="dvZ-hL-pOR" kind="show" id="4La-FR-3hH"/>
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5j-JA-6T4">
@@ -271,6 +271,16 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="138.6255924170616" y="109.23076923076923"/>
+        </scene>
+        <!--JornadaEcologia-->
+        <scene sceneID="uYR-BS-KqX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="JornadaEcologiaStoryboard" referencedIdentifier="JornadaEcologia" id="dvZ-hL-pOR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5XD-Yw-01P"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I6U-Yz-UvX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589" y="-17"/>
         </scene>
         <!--Recompensa-->
         <scene sceneID="eiU-iZ-TVd">

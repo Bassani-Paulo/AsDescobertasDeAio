@@ -102,6 +102,7 @@ class Fase2ViewController: UIViewController {
             animacao = {
                 self.aioView.frame.origin = CGPoint(x: 492, y: 214)
                 self.maiaView.frame.origin = CGPoint(x: -87, y: 214)
+                self.maiaView.image.imageOrientation = .leftMirrored
             }
             completion = {finished in
                 self.mostrarTexto(self.pagina)
@@ -115,6 +116,7 @@ class Fase2ViewController: UIViewController {
             }
         case 11:
             animacao = {
+                self.maiaView.image.imageOrientation = .rightMirrored
                 self.aioView.image = UIImage(named: "aioSurpreso")
                 self.maiaView.frame.origin = CGPoint(x: 175, y: 198)
                 self.aioView.frame.origin = CGPoint(x: 606, y: 214)

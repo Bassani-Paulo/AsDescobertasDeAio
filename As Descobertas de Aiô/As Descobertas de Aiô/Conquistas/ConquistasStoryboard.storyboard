@@ -83,13 +83,6 @@
                                                     <action selector="escolherTipoDeConquista:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="KCJ-oE-faG"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zI-mk-BPB">
-                                                <rect key="frame" x="23" y="16" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <connections>
-                                                    <segue destination="kgi-IR-3IY" kind="unwind" identifier="BackToMain" unwindAction="backToMain:" id="jdC-av-mYD"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZ2-2e-RkX">
                                                 <rect key="frame" x="22" y="104" width="192" height="38"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -99,6 +92,17 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="escolherTipoDeConquista:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="RI0-jP-G4D"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zI-mk-BPB">
+                                                <rect key="frame" x="22" y="14" width="29" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24" scale="medium" weight="bold"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="kgi-IR-3IY" kind="unwind" identifier="BackToMain" unwindAction="backToMain:" id="jdC-av-mYD"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -127,8 +131,12 @@
         <image name="FundoAioApp" width="1643" height="759"/>
         <image name="FundoBotaoBranco" width="192" height="38"/>
         <image name="FundoBotaoRoxo" width="190" height="36"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

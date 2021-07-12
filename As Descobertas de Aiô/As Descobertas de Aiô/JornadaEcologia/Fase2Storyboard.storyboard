@@ -125,6 +125,9 @@
                                 <state key="normal" image="arrow.forward.circle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
                                 </state>
+                                <connections>
+                                    <segue destination="WcD-42-w4z" kind="show" id="VOY-57-fUm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -173,6 +176,9 @@
             <point key="canvasLocation" x="562" y="94"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="VOY-57-fUm"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Fundo" width="1118" height="517"/>
         <image name="aioNormal" width="972" height="820"/>

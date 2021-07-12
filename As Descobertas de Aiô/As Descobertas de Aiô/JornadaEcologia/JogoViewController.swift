@@ -42,7 +42,7 @@ class JogoViewController: UIViewController{
     }
     
     @IBAction func sair(_ gesture: UITapGestureRecognizer){
-        self.dismiss(animated: true, completion: nil)
+        
     }
     
     @IBAction func arrastarView(_ gesture: UIPanGestureRecognizer){
