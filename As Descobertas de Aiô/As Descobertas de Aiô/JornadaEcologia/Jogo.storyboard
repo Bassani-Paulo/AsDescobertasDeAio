@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Jogo View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Jogo" id="Y6W-OH-hqX" customClass="JogoViewController" customModule="As_Descobertas_de_Aio_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fundo" translatesAutoresizingMaskIntoConstraints="NO" id="29l-OF-7cl">
+                                <rect key="frame" x="-17" y="-15" width="878" height="405"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aioNormal" translatesAutoresizingMaskIntoConstraints="NO" id="Uj9-27-o07">
+                                <rect key="frame" x="690" y="237" width="210" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plasticoLixo" translatesAutoresizingMaskIntoConstraints="NO" id="Ssb-0p-v6E">
+                                <rect key="frame" x="60" y="264" width="93" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="metalLixo" translatesAutoresizingMaskIntoConstraints="NO" id="qNV-1g-jcj">
+                                <rect key="frame" x="266" y="264" width="93" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vidroLixo" translatesAutoresizingMaskIntoConstraints="NO" id="g4W-Pi-ovp">
+                                <rect key="frame" x="367" y="264" width="93" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="papelLixo" translatesAutoresizingMaskIntoConstraints="NO" id="yyR-bz-eWA">
+                                <rect key="frame" x="165" y="264" width="93" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canudo" translatesAutoresizingMaskIntoConstraints="NO" id="KwA-CJ-kGs">
+                                <rect key="frame" x="649" y="294" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="KI9-h6-d6W" appends="YES" id="LSz-62-dMs"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="garrafa" translatesAutoresizingMaskIntoConstraints="NO" id="fI9-Zx-P1V">
+                                <rect key="frame" x="576" y="244" width="46" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="PpI-Xp-OwD" appends="YES" id="jPx-c2-c99"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="papel" translatesAutoresizingMaskIntoConstraints="NO" id="BgM-t2-Zo1">
+                                <rect key="frame" x="630" y="237" width="50" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AAx-Cw-3C0" appends="YES" id="CxB-O4-cfu"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colher" translatesAutoresizingMaskIntoConstraints="NO" id="vJQ-XT-oPd">
+                                <rect key="frame" x="555" y="306" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4dW-Gz-NP0" appends="YES" id="nEv-qk-n5u"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lata" translatesAutoresizingMaskIntoConstraints="NO" id="NhN-kb-XV0">
+                                <rect key="frame" x="526" y="264" width="37" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oD3-Kp-6YO" appends="YES" id="HMJ-02-xZA"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="copo" translatesAutoresizingMaskIntoConstraints="NO" id="ME4-aV-H6b">
+                                <rect key="frame" x="671" y="310" width="38" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wUW-3i-dAw" appends="YES" id="Sjn-Hy-Qp2"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oculos" translatesAutoresizingMaskIntoConstraints="NO" id="arE-Zw-ArS">
+                                <rect key="frame" x="583" y="346" width="99" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EaT-Nj-1Iu" appends="YES" id="lnv-y2-DBX"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="latinha" translatesAutoresizingMaskIntoConstraints="NO" id="M8r-xm-ofU">
+                                <rect key="frame" x="490" y="303" width="36" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="R1B-9o-VE9" appends="YES" id="XYj-2C-8BH"/>
+                                </connections>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9MC-jV-GTf">
+                                <rect key="frame" x="538" y="130" width="247" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UK5-vS-ypk">
+                                        <rect key="frame" x="0.0" y="0.0" width="247" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vamos tentar pensar no material que este objeto é feito!" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oj-J6-bMv">
+                                                <rect key="frame" x="11" y="0.0" width="224" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.98040527109999998" green="0.98036855460000005" blue="0.98039346930000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicadorBalao" translatesAutoresizingMaskIntoConstraints="NO" id="aDx-pM-DcA">
+                                        <rect key="frame" x="201" y="62" width="36" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxG-PR-sOw">
+                                <rect key="frame" x="60" y="28" width="39" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <color key="titleColor" name="vermelho"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="i61-tb-2TL" appends="YES" id="txB-Vc-ecK"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5j-JA-6T4">
+                                <rect key="frame" x="194" y="34" width="457" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parabéns!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8m-ca-Go9">
+                                        <rect key="frame" x="164.15353092497162" y="12.000000000000057" width="128.00000000000009" height="34.000000000000014"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                        <color key="textColor" name="vermelho"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conseguimos separar todo o lixo direitinho e ajudamos o meio ambiente!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p1-Il-uT8">
+                                        <rect key="frame" x="18" y="58" width="419" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkL-fC-JRp">
+                                        <rect key="frame" x="205.92217134693715" y="103" width="44" height="43.000000000000007"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" name="vermelho"/>
+                                        <state key="normal" image="play.circle.fill" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="37"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="DzT-Da-NVe" kind="showDetail" id="3xH-PU-9bl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="acabouView" destination="H5j-JA-6T4" id="SFi-7r-8Nc"/>
+                        <outlet property="aioView" destination="Uj9-27-o07" id="AcG-EL-8pT"/>
+                        <outlet property="indicadorBalao" destination="aDx-pM-DcA" id="IrS-AX-aka"/>
+                        <outlet property="lblTexto" destination="3Oj-J6-bMv" id="m1L-4q-eOf"/>
+                        <outlet property="metalView" destination="qNV-1g-jcj" id="KY9-fW-kaz"/>
+                        <outlet property="papelView" destination="yyR-bz-eWA" id="T65-Db-3ta"/>
+                        <outlet property="plasticoView" destination="Ssb-0p-v6E" id="s3Q-Xr-rFR"/>
+                        <outlet property="textoView" destination="9MC-jV-GTf" id="U5U-Zf-Izq"/>
+                        <outlet property="vidroView" destination="g4W-Pi-ovp" id="DEl-VA-hRw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="R1B-9o-VE9">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="gVC-u3-7t8"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="oD3-Kp-6YO">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="c8P-PY-vmZ"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="PpI-Xp-OwD">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="qh4-PU-rO5"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="4dW-Gz-NP0">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="hH9-YU-Gtz"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="EaT-Nj-1Iu">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="Phm-Bb-G4h"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="wUW-3i-dAw">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="opc-qt-8Ta"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="KI9-h6-d6W">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="W08-Uz-xDa"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="AAx-Cw-3C0">
+                    <connections>
+                        <action selector="arrastarView:" destination="Y6W-OH-hqX" id="tMg-5i-0OS"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="i61-tb-2TL">
+                    <connections>
+                        <action selector="sair:" destination="Y6W-OH-hqX" id="UPU-L7-6mA"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="138.6255924170616" y="109.23076923076923"/>
+        </scene>
+        <!--Recompensa-->
+        <scene sceneID="eiU-iZ-TVd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Recompensa" referencedIdentifier="Recompensa" id="DzT-Da-NVe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6bv-T7-6UO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hpo-jg-doR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="109"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fundo" width="1118" height="517"/>
+        <image name="aioNormal" width="972" height="820"/>
+        <image name="canudo" width="370" height="353"/>
+        <image name="colher" width="423" height="421"/>
+        <image name="copo" width="217" height="377"/>
+        <image name="garrafa" width="367" height="828"/>
+        <image name="indicadorBalao" width="36" height="25"/>
+        <image name="lata" width="445" height="753"/>
+        <image name="latinha" width="400" height="595"/>
+        <image name="metalLixo" width="816" height="920"/>
+        <image name="oculos" width="713" height="214"/>
+        <image name="papel" width="493" height="555"/>
+        <image name="papelLixo" width="816" height="920"/>
+        <image name="plasticoLixo" width="816" height="920"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="vidroLixo" width="816" height="920"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="vermelho">
+            <color red="0.94900000095367432" green="0.3919999897480011" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
