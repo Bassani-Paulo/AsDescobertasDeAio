@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		1552980526949D3300EECB0F /* ConquistasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552980326949D3300EECB0F /* ConquistasCollectionViewCell.swift */; };
+		1552980626949D3300EECB0F /* ConquistasCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1552980426949D3300EECB0F /* ConquistasCollectionViewCell.xib */; };
+		1552980A26949FD100EECB0F /* Conquistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552980926949FD100EECB0F /* Conquistas.swift */; };
 		1629D15F268B51C700B4A780 /* ExplorarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */; };
 		1629D161268B51F300B4A780 /* ExplorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629D160268B51F300B4A780 /* ExplorarViewController.swift */; };
 		1629D165268B534C00B4A780 /* AjustesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */; };
@@ -40,6 +44,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
+		1552980326949D3300EECB0F /* ConquistasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasCollectionViewCell.swift; sourceTree = "<group>"; };
+		1552980426949D3300EECB0F /* ConquistasCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConquistasCollectionViewCell.xib; sourceTree = "<group>"; };
+		1552980926949FD100EECB0F /* Conquistas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conquistas.swift; sourceTree = "<group>"; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
 		1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AjustesStoryboard.storyboard; sourceTree = "<group>"; };
@@ -63,6 +71,8 @@
 		2799431E2697975100B9CF0D /* Fase1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fase1ViewController.swift; sourceTree = "<group>"; };
 		279943202697975F00B9CF0D /* Fase2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fase2ViewController.swift; sourceTree = "<group>"; };
 		27D3E12E268CC32E0051B600 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		2B851C1B15AAB5CDB88238E4 /* Pods-As Descobertas de Aiô.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-As Descobertas de Aiô.debug.xcconfig"; path = "Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô.debug.xcconfig"; sourceTree = "<group>"; };
+		77007A25F83141AB7719E168 /* Pods_As_Descobertas_de_Aio_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_As_Descobertas_de_Aio_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83271C0E2697D40900DF193C /* EcologiaStorytelling.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EcologiaStorytelling.json; sourceTree = "<group>"; };
 		83271C102697E44E00DF193C /* JornadaEcologiaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaEcologiaModel.swift; sourceTree = "<group>"; };
 		833B06FA269723A5009A515B /* Recompensa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recompensa.storyboard; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 		833C21E72693629F004C5F5D /* JornadasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadasModel.swift; sourceTree = "<group>"; };
 		833C21E926947E99004C5F5D /* Jogo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jogo.storyboard; sourceTree = "<group>"; };
 		833C21EB26947F23004C5F5D /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
+		D33792D0A8F807EEEEB9725D /* Pods-As Descobertas de Aiô.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-As Descobertas de Aiô.release.xcconfig"; path = "Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1552980726949F1800EECB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1552980926949FD100EECB0F /* Conquistas.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1552980826949F2500EECB0F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1552980326949D3300EECB0F /* ConquistasCollectionViewCell.swift */,
+				1552980426949D3300EECB0F /* ConquistasCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1621BEB7268CB01A00DA934B /* pastateste */ = {
+			isa = PBXGroup;
+			children = (
+				1621BEB8268CB04700DA934B /* testeGitStoryboard.storyboard */,
+			);
+			path = pastateste;
+			sourceTree = "<group>";
+		};
+
 		1629D159268B503100B4A780 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +193,8 @@
 		1629D169268B540300B4A780 /* Conquistas */ = {
 			isa = PBXGroup;
 			children = (
+				1552980826949F2500EECB0F /* Cells */,
+				1552980726949F1800EECB0F /* Models */,
 				1629D16A268B54BD00B4A780 /* ConquistasStoryboard.storyboard */,
 				1629D16C268B551500B4A780 /* ConquistasViewController.swift */,
 			);
@@ -167,6 +206,8 @@
 			children = (
 				272D9428268B4669001201D4 /* As Descobertas de Aiô */,
 				272D9427268B4669001201D4 /* Products */,
+				38A737FCE870F0FD53198BD9 /* Pods */,
+				F2A9E5362E8698C29D958BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +236,23 @@
 			path = "As Descobertas de Aiô";
 			sourceTree = "<group>";
 		};
+		38A737FCE870F0FD53198BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B851C1B15AAB5CDB88238E4 /* Pods-As Descobertas de Aiô.debug.xcconfig */,
+				D33792D0A8F807EEEEB9725D /* Pods-As Descobertas de Aiô.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2A9E5362E8698C29D958BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77007A25F83141AB7719E168 /* Pods_As_Descobertas_de_Aio_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272D943A268B466A001201D4 /* Build configuration list for PBXNativeTarget "As Descobertas de Aiô" */;
 			buildPhases = (
+				0B86D72C0148D271E302B374 /* [CP] Check Pods Manifest.lock */,
 				272D9422268B4669001201D4 /* Sources */,
 				272D9423268B4669001201D4 /* Frameworks */,
 				272D9424268B4669001201D4 /* Resources */,
+				AE72526074EF036B122E5EC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272D9436268B466A001201D4 /* LaunchScreen.storyboard in Resources */,
+				1552980626949D3300EECB0F /* ConquistasCollectionViewCell.xib in Resources */,
 				833C21E6269360DE004C5F5D /* Jornadas.json in Resources */,
 				1629D16B268B54BD00B4A780 /* ConquistasStoryboard.storyboard in Resources */,
 				833C21EA26947E99004C5F5D /* Jogo.storyboard in Resources */,
@@ -271,6 +332,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B86D72C0148D271E302B374 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-As Descobertas de Aiô-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE72526074EF036B122E5EC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		272D9422268B4669001201D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +387,8 @@
 				833B06FD269723C7009A515B /* Recompensa.swift in Sources */,
 				27D3E12F268CC32E0051B600 /* AjustesViewController.swift in Sources */,
 				1629D171268B558700B4A780 /* JornadaEcologiaViewController.swift in Sources */,
+				1552980A26949FD100EECB0F /* Conquistas.swift in Sources */,
+				1552980526949D3300EECB0F /* ConquistasCollectionViewCell.swift in Sources */,
 				83271C112697E44E00DF193C /* JornadaEcologiaModel.swift in Sources */,
 				2727FD8E2693511A004395B1 /* AudioManager.swift in Sources */,
 				272D942C268B4669001201D4 /* SceneDelegate.swift in Sources */,
@@ -435,6 +540,7 @@
 		};
 		272D943B268B466A001201D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B851C1B15AAB5CDB88238E4 /* Pods-As Descobertas de Aiô.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +560,7 @@
 		};
 		272D943C268B466A001201D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33792D0A8F807EEEEB9725D /* Pods-As Descobertas de Aiô.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
