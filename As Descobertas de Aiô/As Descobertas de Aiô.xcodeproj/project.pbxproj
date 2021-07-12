@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11249F8ACEEF9178F9655FA8 /* Pods_As_Descobertas_de_Aio_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_As_Descobertas_de_Aio_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1629D15E268B51C700B4A780 /* ExplorarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplorarStoryboard.storyboard; sourceTree = "<group>"; };
 		1629D160268B51F300B4A780 /* ExplorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorarViewController.swift; sourceTree = "<group>"; };
 		1629D164268B534C00B4A780 /* AjustesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AjustesStoryboard.storyboard; sourceTree = "<group>"; };
@@ -68,6 +69,8 @@
 		833C21E72693629F004C5F5D /* JornadasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadasModel.swift; sourceTree = "<group>"; };
 		833C21E926947E99004C5F5D /* Jogo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jogo.storyboard; sourceTree = "<group>"; };
 		833C21EB26947F23004C5F5D /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
+		BCE969DFA47CADD9631A5627 /* Pods-As Descobertas de Aiô.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-As Descobertas de Aiô.debug.xcconfig"; path = "Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F5727D2B2285C220F4A0A7 /* Pods-As Descobertas de Aiô.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-As Descobertas de Aiô.release.xcconfig"; path = "Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				272D9428268B4669001201D4 /* As Descobertas de Aiô */,
 				272D9427268B4669001201D4 /* Products */,
+				38A737FCE870F0FD53198BD9 /* Pods */,
+				C35130E15BE1336F8B2AB2D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +194,23 @@
 			path = "As Descobertas de Aiô";
 			sourceTree = "<group>";
 		};
+		38A737FCE870F0FD53198BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCE969DFA47CADD9631A5627 /* Pods-As Descobertas de Aiô.debug.xcconfig */,
+				E1F5727D2B2285C220F4A0A7 /* Pods-As Descobertas de Aiô.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C35130E15BE1336F8B2AB2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11249F8ACEEF9178F9655FA8 /* Pods_As_Descobertas_de_Aio_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272D943A268B466A001201D4 /* Build configuration list for PBXNativeTarget "As Descobertas de Aiô" */;
 			buildPhases = (
+				953555A95BD02264A10DA4A0 /* [CP] Check Pods Manifest.lock */,
 				272D9422268B4669001201D4 /* Sources */,
 				272D9423268B4669001201D4 /* Frameworks */,
 				272D9424268B4669001201D4 /* Resources */,
+				38479568427EA6BB62B3E2C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +287,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38479568427EA6BB62B3E2C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-As Descobertas de Aiô/Pods-As Descobertas de Aiô-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953555A95BD02264A10DA4A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-As Descobertas de Aiô-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		272D9422268B4669001201D4 /* Sources */ = {
@@ -427,6 +493,7 @@
 		};
 		272D943B268B466A001201D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE969DFA47CADD9631A5627 /* Pods-As Descobertas de Aiô.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +513,7 @@
 		};
 		272D943C268B466A001201D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F5727D2B2285C220F4A0A7 /* Pods-As Descobertas de Aiô.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
