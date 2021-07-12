@@ -94,8 +94,8 @@ class ExplorarViewController: UIViewController {
     
     lazy var closeExploreButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(systemName: "xmark"), for: .normal)
-        button.tintColor = .black
+        button.setImage(UIImage(systemName: "xmark.circle.fill"), for: .normal)
+        button.tintColor = .secondaryLabel
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(self.backAction(_:)), for: .touchUpInside)
 
