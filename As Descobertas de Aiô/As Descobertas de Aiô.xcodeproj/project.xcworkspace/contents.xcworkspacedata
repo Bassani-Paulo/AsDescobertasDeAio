@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/macloving/Documents/GitHub/AsDescobertasDeAio/As Descobertas de Aio&#x302;/As Descobertas de Aio&#x302;/Dog Barking.mp3">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/macloving/Documents/GitHub/AsDescobertasDeAio/As Descobertas de Aio&#x302;/As Descobertas de Aio&#x302;/The Curious Kitten - Aaron Kenny.mp3">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
