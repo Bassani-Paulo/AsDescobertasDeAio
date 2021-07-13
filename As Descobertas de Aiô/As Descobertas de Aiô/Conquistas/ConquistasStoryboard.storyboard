@@ -95,11 +95,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zI-mk-BPB">
-                                                <rect key="frame" x="22" y="14" width="29" height="29"/>
+                                                <rect key="frame" x="21" y="14" width="32" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" systemColor="secondaryLabelColor"/>
                                                 <state key="normal" image="xmark.circle.fill" catalog="system">
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24" scale="medium" weight="bold"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="medium" weight="bold"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="kgi-IR-3IY" kind="unwind" identifier="BackToMain" unwindAction="backToMain:" id="jdC-av-mYD"/>
